@@ -17,7 +17,7 @@ const CreateTask = ({ setTasks }) => {
       status,
     };
 
-    setTasks(prev => [...prev, newTask]);
+    setTasks(prev => [...prev, newTask]); 
     navigate('/');
   };
 
@@ -31,7 +31,7 @@ const CreateTask = ({ setTasks }) => {
       <h1 className='text-4xl font-semibold text-center mt-20'>Create Task</h1>
 
       <section
-        className='h-[470px] border w-[700px] ml-[28%] mt-10 p-5 rounded rounded-sm  bg-white '
+        className='h-[470px] border lg:w-[700px] lg:ml-[28%] mt-10 p-5 rounded rounded-sm  bg-white '
         style={{ boxShadow: '0 10px 25px rgba(34, 197, 94, 0.5)' }}
       >
         <form onSubmit={handleSubmit}>

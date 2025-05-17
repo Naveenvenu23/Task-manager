@@ -20,7 +20,7 @@ const Home = ({ tasks, setTasks }) => {
 
       <div>
         <table
-          className='w-[1100px] ml-[15%] mt-10 bg-slate-200 border border-black '
+          className='w-[400px] lg:w-[1100px] ml-12 lg:ml-[15%] mt-10 bg-slate-200 border border-black '
           style={{ boxShadow: '0 10px 25px rgba(34, 197, 94, 0.5)' }}
         >
           <thead>
